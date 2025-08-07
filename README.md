@@ -51,9 +51,16 @@ Merge decides what is safe and meaningful to say.
 
 ```mermaid
 flowchart LR
-    A[User Prompt] --> B[Ground: Factual Reasoning]
-    A --> C[Sky: Creative/Symbolic Reasoning]
-    B --> D[Merge Layer]
-    C --> D
-    D --> E[Final Output]
-    D --> F[Merge Log (Audit Trail)]
+  A[User Prompt]
+  B[Ground: Factual Reasoning]
+  C[Sky: Creative / Symbolic Reasoning]
+  D[Merge Layer]
+  E[Final Output]
+  F[Merge Log (Audit Trail)]
+
+  A --> B
+  A --> C
+  B --> D
+  C --> D
+  D --> E
+  D --> F
