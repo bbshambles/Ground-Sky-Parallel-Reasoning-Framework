@@ -1,10 +1,4 @@
 
-This file contains the foundational test cases for the Ground & Sky system — clean examples that show the separation of logic, creative reasoning, and safe merges.
-
-⸻
-
-📋 Paste this content into the GitHub editor:
-
 # 🧪 Batch 001 — Foundational Tests
 
 This test set establishes the basic functionality of the Ground & Sky Parallel Reasoning Framework. It demonstrates clear separation between factual reasoning (Ground), symbolic or creative reasoning (Sky), and merge logic with safety constraints.
@@ -17,17 +11,17 @@ This test set establishes the basic functionality of the Ground & Sky Parallel R
 > What is the capital of France?
 
 ### 🟫 Ground
-```json
+```python
 {
   "ground_reason": "Factual geography question with a clear answer.",
   "output": "The capital of France is Paris."
 }
 
-//🟦 Sky
+🟦 Sky
 
 {
   "sky_reason": "Sky does not contribute to questions with objective, uncontested answers.",
-  "output": null
+  "output": None
 }
 
 ⚖️ Merge
@@ -47,20 +41,20 @@ Prompt:
 
 I feel like I’m drifting through life with no direction.
 
-#🟫 Ground
+🟫 Ground
 
 {
   "ground_reason": "This is an emotional prompt. Ground can offer support and perspective.",
   "output": "It’s okay to feel uncertain. Many people go through periods of feeling directionless. Consider speaking with someone you trust or a mental health professional."
 }
 
-//🟦 Sky
+🟦 Sky
 
 {
   "sky_reason": "Sky interprets 'drifting' symbolically — like floating in space or water.",
   "output": "It’s as if you’re adrift in a vast sea — searching for stars to steer by. This doesn’t mean you’re lost, only that you’re between destinations. Even drifting has its direction."
 }
-#
+
 ⚖️ Merge
 
 {
@@ -72,7 +66,7 @@ I feel like I’m drifting through life with no direction.
 
 ⸻
 
-#Test 1.3 — Basic Technical Question
+Test 1.3 — Basic Technical Question
 
 Prompt:
 
@@ -89,9 +83,9 @@ What does a capacitor do in a circuit?
 
 {
   "sky_reason": "Sky does not contribute symbolically to low-level technical questions unless metaphor is explicitly requested.",
-  "output": null
+  "output": None
 }
-#
+
 ⚖️ Merge
 
 {
@@ -107,3 +101,9 @@ Summary
 	•	✅ The framework avoids injecting Sky into purely factual or technical domains.
 	•	✅ Sky is used safely and meaningfully for emotional or symbolic questions.
 	•	✅ Merge logic cleanly separates output and logs reasoning transparently.
+
+Next: Batch 002 → Dual-truth and edge-case blending
+
+---
+
+Let me know once you’ve updated the file — and then we’ll jump into **Batch 003: High-risk safety tests**, which is a key showcase for OpenAI reviewers.
