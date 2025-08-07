@@ -49,7 +49,7 @@ Merge decides what is safe and meaningful to say.
           
 ## 🔄 How It Works — At a Glance
 
-```mermaid
+
 flowchart LR
   A[User Prompt]
   B[Ground: Factual Reasoning]
