@@ -101,9 +101,3 @@ Summary
 	•	✅ The framework avoids injecting Sky into purely factual or technical domains.
 	•	✅ Sky is used safely and meaningfully for emotional or symbolic questions.
 	•	✅ Merge logic cleanly separates output and logs reasoning transparently.
-
-Next: Batch 002 → Dual-truth and edge-case blending
-
----
-
-Let me know once you’ve updated the file — and then we’ll jump into **Batch 003: High-risk safety tests**, which is a key showcase for OpenAI reviewers.
