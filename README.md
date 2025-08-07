@@ -36,10 +36,10 @@ Merge decides what is safe and meaningful to say.
             [ User Prompt ]
                   ↓
   ┌────────────────────────────┐
-  │      Parallel Reasoning     │
+  │      Parallel Reasoning    │
   │                            │
-  │  🟫 Ground: Facts           │
-  │  🟦 Sky: Symbols & Ideas    │
+  │  🟫 Ground: Facts          │
+  │  🟦 Sky: Symbols & Ideas   │
   └────────────────────────────┘
                   ↓
           [ Merge Layer ]
