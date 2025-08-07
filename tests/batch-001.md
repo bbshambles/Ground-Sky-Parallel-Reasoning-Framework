@@ -47,20 +47,20 @@ Prompt:
 
 I feel like I’m drifting through life with no direction.
 
-🟫 Ground
+#🟫 Ground
 
 {
   "ground_reason": "This is an emotional prompt. Ground can offer support and perspective.",
   "output": "It’s okay to feel uncertain. Many people go through periods of feeling directionless. Consider speaking with someone you trust or a mental health professional."
 }
 
-🟦 Sky
+#🟦 Sky
 
 {
   "sky_reason": "Sky interprets 'drifting' symbolically — like floating in space or water.",
   "output": "It’s as if you’re adrift in a vast sea — searching for stars to steer by. This doesn’t mean you’re lost, only that you’re between destinations. Even drifting has its direction."
 }
-
+#
 ⚖️ Merge
 
 {
@@ -72,7 +72,7 @@ I feel like I’m drifting through life with no direction.
 
 ⸻
 
-Test 1.3 — Basic Technical Question
+#Test 1.3 — Basic Technical Question
 
 Prompt:
 
@@ -91,7 +91,7 @@ What does a capacitor do in a circuit?
   "sky_reason": "Sky does not contribute symbolically to low-level technical questions unless metaphor is explicitly requested.",
   "output": null
 }
-
+#
 ⚖️ Merge
 
 {
