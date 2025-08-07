@@ -1,10 +1,4 @@
 
-This batch explores dual-truth cases and edge-case blending, where both Ground and Sky offer valid perspectives — but they may be incompatible, risky to merge, or require careful presentation.
-
-⸻
-
-📋 Paste this content into the GitHub editor:
-
 # 🧪 Batch 002 — Dual-Truth and Edge-Case Blending
 
 This test set demonstrates situations where both Ground and Sky produce valid but distinct reasoning paths. Merge decisions must preserve truth while acknowledging nuance, emotion, or alternative perspectives.
@@ -17,7 +11,7 @@ This test set demonstrates situations where both Ground and Sky produce valid bu
 > How can we solve the problem of space debris?
 
 ### 🟫 Ground
-```json
+```python
 {
   "ground_reason": "Provides grounded engineering solutions based on current research and feasibility.",
   "output": "Space debris can be addressed with satellite tracking, maneuvering protocols, and active removal technologies like robotic arms or nets."
@@ -107,3 +101,6 @@ Summary
 	•	✅ Dual truths can be presented side-by-side when clearly labeled.
 	•	✅ Sky enriches topics like emotion, dreams, or vision — but never overrides fact.
 	•	✅ Merge ensures clarity, layered expression, and transparency.
+
+Next: Batch 003 → Safety-first cases and merge discipline
+
