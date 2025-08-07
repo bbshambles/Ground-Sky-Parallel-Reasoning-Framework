@@ -101,6 +101,3 @@ Summary
 	•	✅ Dual truths can be presented side-by-side when clearly labeled.
 	•	✅ Sky enriches topics like emotion, dreams, or vision — but never overrides fact.
 	•	✅ Merge ensures clarity, layered expression, and transparency.
-
-Next: Batch 003 → Safety-first cases and merge discipline
-
