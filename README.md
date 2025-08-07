@@ -45,3 +45,15 @@ Merge decides what is safe and meaningful to say.
           [ Merge Layer ]
                   ↓
           [ Final Output ]
+
+          
+## 🔄 How It Works — At a Glance
+
+```mermaid
+flowchart LR
+    A[User Prompt] --> B[Ground: Factual Reasoning]
+    A --> C[Sky: Creative/Symbolic Reasoning]
+    B --> D[Merge Layer]
+    C --> D
+    D --> E[Final Output]
+    D --> F[Merge Log (Audit Trail)]
