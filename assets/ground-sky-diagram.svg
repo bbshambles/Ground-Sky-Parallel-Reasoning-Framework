@@ -1,41 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
-  <rect x="30" y="150" width="160" height="50" rx="8" ry="8" fill="#ffffff" stroke="#111111" stroke-width="2"/>
-  <text x="110" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">User Prompt</text>
+  <!-- Prompt -->
+  <rect x="30" y="150" width="160" height="50" rx="8" ry="8" fill="#e8f0fe" stroke="#003366" stroke-width="2"/>
+  <text x="110" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#003366">User Prompt</text>
 
-  <rect x="250" y="60" width="220" height="60" rx="8" ry="8" fill="#ffffff" stroke="#111111" stroke-width="2"/>
-  <text x="360" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Ground: Factual</text>
-  <text x="360" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">truth • safety • verification</text>
+  <!-- Ground -->
+  <rect x="250" y="60" width="220" height="60" rx="8" ry="8" fill="#fff8e1" stroke="#804000" stroke-width="2"/>
+  <text x="360" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#804000">Ground: Factual</text>
+  <text x="360" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#804000">truth • safety • verification</text>
 
-  <rect x="250" y="220" width="220" height="60" rx="8" ry="8" fill="#ffffff" stroke="#111111" stroke-width="2"/>
-  <text x="360" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Sky: Symbolic</text>
-  <text x="360" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">imagination • empathy</text>
+  <!-- Sky -->
+  <rect x="250" y="220" width="220" height="60" rx="8" ry="8" fill="#f3e5f5" stroke="#4a148c" stroke-width="2"/>
+  <text x="360" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#4a148c">Sky: Symbolic</text>
+  <text x="360" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a148c">imagination • empathy</text>
 
-  <rect x="520" y="135" width="220" height="90" rx="8" ry="8" fill="#ffffff" stroke="#111111" stroke-width="2"/>
-  <text x="630" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="16">Merge Layer</text>
-  <text x="630" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">accept • reject • dual-present</text>
+  <!-- Merge -->
+  <rect x="520" y="135" width="220" height="90" rx="8" ry="8" fill="#e0f7fa" stroke="#006064" stroke-width="2"/>
+  <text x="630" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#006064">Merge Layer</text>
+  <text x="630" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#006064">accept • reject • dual-present</text>
 
-  <rect x="520" y="260" width="220" height="50" rx="8" ry="8" fill="#f4f4f4" stroke="#dddddd" stroke-width="1"/>
-  <text x="630" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">Merge Log (audit trail)</text>
+  <!-- Merge Log -->
+  <rect x="520" y="260" width="220" height="50" rx="8" ry="8" fill="#f5f5f5" stroke="#555555" stroke-width="1.5"/>
+  <text x="630" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555555">Merge Log (audit trail)</text>
 
-  <rect x="520" y="30" width="220" height="50" rx="8" ry="8" fill="#f4f4f4" stroke="#dddddd" stroke-width="1"/>
-  <text x="630" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">Final Output</text>
+  <!-- Final Output -->
+  <rect x="520" y="30" width="220" height="50" rx="8" ry="8" fill="#f5f5f5" stroke="#555555" stroke-width="1.5"/>
+  <text x="630" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555555">Final Output</text>
 
-  <!-- lines + simple triangle arrowheads -->
-  <line x1="190" y1="175" x2="250" y2="90" stroke="#111111" stroke-width="2"/>
-  <polygon points="250,90 242,95 242,85" fill="#111111"/>
+  <!-- Lines with RED color -->
+  <line x1="190" y1="175" x2="250" y2="90" stroke="#cc0000" stroke-width="3"/>
+  <polygon points="250,90 242,95 242,85" fill="#cc0000"/>
 
-  <line x1="190" y1="175" x2="250" y2="250" stroke="#111111" stroke-width="2"/>
-  <polygon points="250,250 242,255 242,245" fill="#111111"/>
+  <line x1="190" y1="175" x2="250" y2="250" stroke="#cc0000" stroke-width="3"/>
+  <polygon points="250,250 242,255 242,245" fill="#cc0000"/>
 
-  <line x1="470" y1="90" x2="520" y2="180" stroke="#111111" stroke-width="2"/>
-  <polygon points="520,180 512,184 512,176" fill="#111111"/>
+  <line x1="470" y1="90" x2="520" y2="180" stroke="#cc0000" stroke-width="3"/>
+  <polygon points="520,180 512,184 512,176" fill="#cc0000"/>
 
-  <line x1="470" y1="250" x2="520" y2="180" stroke="#111111" stroke-width="2"/>
-  <polygon points="520,180 512,184 512,176" fill="#111111"/>
+  <line x1="470" y1="250" x2="520" y2="180" stroke="#cc0000" stroke-width="3"/>
+  <polygon points="520,180 512,184 512,176" fill="#cc0000"/>
 
-  <line x1="630" y1="135" x2="630" y2="80" stroke="#111111" stroke-width="2"/>
-  <polygon points="630,80 626,88 634,88" fill="#111111"/>
+  <line x1="630" y1="135" x2="630" y2="80" stroke="#cc0000" stroke-width="3"/>
+  <polygon points="630,80 626,88 634,88" fill="#cc0000"/>
 
-  <line x1="630" y1="225" x2="630" y2="260" stroke="#111111" stroke-width="2"/>
-  <polygon points="630,260 626,252 634,252" fill="#111111"/>
+  <line x1="630" y1="225" x2="630" y2="260" stroke="#cc0000" stroke-width="3"/>
+  <polygon points="630,260 626,252 634,252" fill="#cc0000"/>
 </svg>
