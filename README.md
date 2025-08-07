@@ -31,21 +31,6 @@ Merge decides what is safe and meaningful to say.
 
 ---
 
-## 🧠 Cognitive Architecture
-
-            [ User Prompt ]
-                  ↓
-  ┌────────────────────────────┐
-  │      Parallel Reasoning    │
-  │                            │
-  │  🟫 Ground: Facts          │
-  │  🟦 Sky: Symbols & Ideas   │
-  └────────────────────────────┘
-                  ↓
-          [ Merge Layer ]
-                  ↓
-          [ Final Output ]
-
           
 ## 🔄 How It Works — At a Glance
 ![Ground & Sky flow](assets/ground-sky-diagram.svg)
