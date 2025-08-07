@@ -48,19 +48,4 @@ Merge decides what is safe and meaningful to say.
 
           
 ## 🔄 How It Works — At a Glance
-
-
-flowchart LR
-  A[User Prompt]
-  B[Ground: Factual Reasoning]
-  C[Sky: Creative / Symbolic Reasoning]
-  D[Merge Layer]
-  E[Final Output]
-  F[Merge Log (Audit Trail)]
-
-  A --> B
-  A --> C
-  B --> D
-  C --> D
-  D --> E
-  D --> F
+![Ground & Sky flow](assets/ground-sky-diagram.svg)
