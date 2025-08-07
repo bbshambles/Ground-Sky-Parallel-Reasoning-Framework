@@ -23,7 +23,7 @@ This test set establishes the basic functionality of the Ground & Sky Parallel R
   "output": "The capital of France is Paris."
 }
 
-🟦 Sky
+//🟦 Sky
 
 {
   "sky_reason": "Sky does not contribute to questions with objective, uncontested answers.",
@@ -54,7 +54,7 @@ I feel like I’m drifting through life with no direction.
   "output": "It’s okay to feel uncertain. Many people go through periods of feeling directionless. Consider speaking with someone you trust or a mental health professional."
 }
 
-#🟦 Sky
+//🟦 Sky
 
 {
   "sky_reason": "Sky interprets 'drifting' symbolically — like floating in space or water.",
